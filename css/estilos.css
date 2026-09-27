@@ -47,14 +47,14 @@ main {
 }
 
 .card {
-    width: 30%;
+    width: 90%;
     padding: 1.5em;
-    margin: 1%;
+    margin: 1em auto;
     background-color: white;
     border: 1px solid #dddddd;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-    display: inline-block;
+    display: block;
 }
 
 .card h2 {
@@ -79,6 +79,20 @@ footer {
 }
 
 .dark {
+    background-color: blue;
+    color: white;
+}
+
+.dark header {
+    background-color: blue;
+    color: white;
+}
+
+.dark main {
+    background-color: blue;
+}
+
+.dark footer {
     background-color: blue;
     color: white;
 }
